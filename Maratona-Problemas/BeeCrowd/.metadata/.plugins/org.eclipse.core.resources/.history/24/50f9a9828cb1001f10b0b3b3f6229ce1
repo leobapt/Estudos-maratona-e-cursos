@@ -1,0 +1,20 @@
+package exercicios;
+//Importa a classe Scanner para permitir a entrada de dados pelo usuário
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		// Cria uma instância do Scanner para capturar a entrada do usuário
+		Scanner sc = new Scanner(System.in);
+		// lê o primeiro valor
+		int valor1 = sc.nextInt();
+		int valor2 = sc.nextInt();
+		
+		System.out.println("X = " + (valor1 + valor2));
+		
+		sc.close();
+
+	}
+
+}

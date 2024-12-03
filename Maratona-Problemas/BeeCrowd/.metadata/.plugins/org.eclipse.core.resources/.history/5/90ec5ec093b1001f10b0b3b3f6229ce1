@@ -1,0 +1,22 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+
+	public static void main(String[] args) {
+		// Cria uma instância do Scanner para capturar a entrada do usuário
+		Scanner sc = new Scanner(System.in);
+		// lê o primeiro valor
+		int valor1 = sc.nextInt();
+		// lê o segundo valor
+		int valor2 = sc.nextInt();
+		
+		// Calcula a multiplicacao dos dois valores e exibe o resultado no formato "PROD = resultado"
+		System.out.println("PROD = " + (valor1 * valor2));
+		
+		 // Fecha o Scanner para liberar os recursos utilizados
+		sc.close();
+	}
+
+}

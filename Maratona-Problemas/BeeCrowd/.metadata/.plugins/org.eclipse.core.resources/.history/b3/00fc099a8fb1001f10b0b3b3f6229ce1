@@ -1,0 +1,19 @@
+package exercicios;
+//importar classe scanner para permitir entrada de dados
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		//cria uma instância do scanner para capturar as entradas
+		Scanner sc = new Scanner(System.in);
+		//instancia um atributo para entrada do raio;
+		 double raio = sc.nextDouble();
+		 double pi = 3.14159; //cria atributo com o valor do pi
+		
+		 System.out.println("A= " + (pi * raio * raio));
+
+		sc.close();
+	}
+
+}
