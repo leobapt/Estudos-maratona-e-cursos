@@ -1,0 +1,16 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio10 {
+
+	public static void main(String[] args) {
+		//Criar uma instância para capturar valores da entrada
+		Scanner sc = new Scanner(System.in);
+		
+		int num_peca1 = sc.nextInt();
+		
+		sc.close();
+	}
+
+}

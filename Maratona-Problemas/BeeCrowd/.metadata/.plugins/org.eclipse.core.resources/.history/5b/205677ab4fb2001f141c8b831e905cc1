@@ -1,0 +1,13 @@
+package exercicios;
+import java.util.Scanner;
+
+public class Exercicio8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int numero_Funcionario = sc.nextInt();
+		sc.close();
+	}
+
+}

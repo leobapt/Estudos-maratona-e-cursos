@@ -1,0 +1,20 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio10 {
+
+	public static void main(String[] args) {
+		//Criar uma instância para capturar valores da entrada
+		Scanner sc = new Scanner(System.in);
+		
+		//lê valores de entrada da primeira peça
+		int num_peca1 = sc.nextInt();
+		int quantidade_pecas = sc.nextInt();
+		double valor_unitario_peca1 = sc.nextDouble();
+		
+		
+		sc.close();
+	}
+
+}
