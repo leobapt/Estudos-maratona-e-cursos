@@ -1,0 +1,24 @@
+package exercicios;
+import java.util.Scanner;
+public class Exercicio1020 {
+
+	public static void main(String[] args) {
+		// cria uma instância para capturar informações
+		Scanner sc = new Scanner(System.in);
+		
+		int diasTotais = sc.nextInt();
+		
+		// array para guardar os formatos de dia
+		final int[] dias = {365, 30};
+		
+		int[] resultado = new int[3]; //dia, mês e ano
+		
+		for(int i = 0; i < dias.length; i++) {
+			resultado[i] = diasTotais/ dias[];
+		}
+		
+		
+		sc.close();
+	}
+
+}

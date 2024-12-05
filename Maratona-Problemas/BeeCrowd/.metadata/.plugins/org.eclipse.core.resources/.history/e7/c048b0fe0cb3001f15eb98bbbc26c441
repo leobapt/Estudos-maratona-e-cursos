@@ -1,0 +1,14 @@
+package exercicios;
+import java.util.Scanner;
+public class Exercicio17 {
+
+	public static void main(String[] args) {
+		// Cria uma instância para capturar respostas
+		Scanner sc = new Scanner(System.in);
+		
+		
+		sc.close();
+
+	}
+
+}

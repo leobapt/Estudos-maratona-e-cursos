@@ -1,0 +1,17 @@
+package exercicios;
+import java.util.Scanner;
+
+public class Exercicio1021 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		final int[] valores_reais =
+		
+		
+		
+		sc.close();
+	}
+
+}

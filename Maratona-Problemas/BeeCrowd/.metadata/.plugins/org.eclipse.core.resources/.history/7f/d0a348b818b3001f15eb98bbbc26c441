@@ -1,0 +1,15 @@
+package exercicios;
+import java.util.Scanner;
+public class Exercicio18 {
+
+	public static void main(String[] args) {
+		// Cria uma instância para capturar dados
+		Scanner sc = new Scanner(System.in);
+		
+		int quantidadeTotalReais = sc.nextInt();
+		 //atributos com valores das notas em reais
+		
+		sc.close();
+	}
+
+}

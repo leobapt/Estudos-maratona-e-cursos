@@ -1,0 +1,28 @@
+package exercicios;
+import java.util.Scanner;
+public class Exercicio18 {
+
+	public static void main(String[] args) {
+		// Cria uma instância para capturar dados
+		Scanner sc = new Scanner(System.in);
+		
+		 //atributos com valores das notas em reais
+		 final int nota100 = 100;
+		 final int nota50 = 50;
+		 final int nota20 = 20;
+		 final int nota10 = 10;
+		 final int nota5 = 5;
+		 final int nota2 = 2;
+		 final int nota1 = 1;
+		 
+		 int quantidadeTotalReais = sc.nextInt();
+		 
+		 int quantidadeTotal100Reais = quantidadeTotalReais / nota100;
+		 quantidadeTotalReais %= nota100;
+		 
+		 System.out.println(quantidadeTotal100Reais + " nota(s) de R$ 100,00");
+	
+		sc.close();
+	}
+
+}

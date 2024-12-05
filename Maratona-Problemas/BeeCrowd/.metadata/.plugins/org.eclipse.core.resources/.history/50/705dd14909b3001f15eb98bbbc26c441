@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Exercicio16 {
+    public static void main(String[] args) {
+        // Criação do objeto Scanner para leitura da entrada
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicita a distância ao usuário
+        System.out.print("Digite a distância (em km): ");
+        double distancia = scanner.nextDouble();
+
+        // Diferença de velocidades (em km/h)
+        double diferencaVelocidade = 30.0; // km/h
+
+        // Cálculo do tempo em horas
+        double tempoHoras = distancia / diferencaVelocidade;
+
+        // Conversão do tempo para minutos
+        double tempoMinutos = tempoHoras * 60;
+
+        // Exibe o resultado
+        System.out.printf("O carro Y levará %.2f minutos para alcançar a distância de %.2f km.%n", tempoMinutos, distancia);
+
+        // Fecha o scanner
+        scanner.close();
+    }
+}

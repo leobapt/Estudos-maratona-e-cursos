@@ -1,0 +1,26 @@
+package exercicios;
+import java.util.Scanner;
+public class Exercicio17 {
+
+	public static void main(String[] args) {
+		// Cria uma instância para capturar respostas
+		Scanner sc = new Scanner(System.in);
+		
+		// lê respostas
+		int tempo_gasto_em_viagemhoras = sc.nextInt();
+		int velocidade_media_emKM = sc.nextInt();
+		
+		// quantidade de litros de combustivel gastos
+		int quantida_litros_gasto = 12;
+		
+		// calcular quantidade de litros necessaria
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}
