@@ -1,5 +1,4 @@
 package exercicios_pagina2;
-
 import java.util.Scanner;
 import java.util.Arrays;
 

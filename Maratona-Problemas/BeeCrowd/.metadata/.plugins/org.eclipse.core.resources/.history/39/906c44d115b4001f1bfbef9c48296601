@@ -1,0 +1,35 @@
+package exercicios_pagina2;
+import java.util.Scanner;
+
+public class Exercicio1048 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		double salario = sc.nextDouble();
+		double novoSalario, reajuste;
+		int percentual = 0;
+		
+		if(salario >= 0 || salario <= 400) {
+			percentual = 15;
+		}else if(salario >= 400.01 || salario <= 800) {
+			percentual = 12;
+		}else if(salario >= 800.01 || salario <= 1200) {
+			percentual = 10;
+		}else if(salario >= 1200.01 || salario <= 2000) {
+			percentual = 7;
+		}else if(salario > 2000) {
+			percentual = 4;
+		}
+		
+		reajuste = salario * percentual / 100;
+		novoSalario = salario + reajuste;
+		
+		System.out.println("Novo salario: " + novoSalario);
+		System.out.println("Reajuste Ganho: " + reajuste);
+		System.out.println("Em percentual: " + percentual);
+		sc.close();
+	}
+
+}
