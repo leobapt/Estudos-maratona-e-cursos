@@ -1,0 +1,8 @@
+package exercicios_pagina2;
+import java.util.Scanner;
+
+public class Exercicio1065 {
+	public static void main(String[] args) {
+		
+	}
+}
