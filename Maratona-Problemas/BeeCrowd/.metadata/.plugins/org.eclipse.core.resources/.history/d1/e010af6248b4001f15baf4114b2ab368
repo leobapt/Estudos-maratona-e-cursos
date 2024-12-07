@@ -1,0 +1,15 @@
+package exercicios_pagina2;
+
+public class Exercicio1059 {
+
+	public static void main(String[] args) {
+		int numero;
+		
+		for(int i = 0; i < 100; i++) {
+			if(numero % 2 == 0) {
+				System.out.println(numero);
+			}
+		}
+	}
+
+}

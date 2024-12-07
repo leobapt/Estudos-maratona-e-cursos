@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class Exercicio1061 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Lendo o dia de início
+        System.out.print("Digite o dia inicial: ");
+        scanner.next(); // Consome "Dia"
+        int diaInicio = scanner.nextInt();
+
+        // Lendo a hora de início
+        System.out.print("Digite o horário inicial (hh:mm:ss): ");
+        int horaInicio = scanner.nextInt();
+        int minutoInicio = scanner.nextInt();
+        int segundoInicio = scanner.nextInt();
+
+        // Lendo o dia de término
+        System.out.print("Digite o dia final: ");
+        scanner.next(); // Consome "Dia"
+        int diaFim = scanner.nextInt();
+
+        // Lendo a hora de término
+        System.out.print("Digite o horário final (hh:mm:ss): ");
+        int horaFim = scanner.nextInt();
+        int minutoFim = scanner.nextInt();
+        int segundoFim = scanner.nextInt();
+
+        // Convertendo tudo para segundos
+        int inicioEmSegundos = segundoInicio + minutoInicio * 60 + horaInicio * 3600 + diaInicio * 86400;
+        int fimEmSegundos = segundoFim + minutoFim * 60 + horaFim * 3600 + diaFim * 86400;
+
+        // Calculando a duração em segundos
+        int duracaoTotal = fimEmSegundos - inicioEmSegundos;
+
+        // Convertendo a duração total em dias, horas, minutos e segundos
+        int dias = duracaoTotal / 86400;
+        duracaoTotal %= 86400;
+
+        int horas = duracaoTotal / 3600;
+        duracaoTotal %= 3600;
+
+        int minutos = duracaoTotal / 60;
+        int segundos = duracaoTotal % 60;
+
+        // Exibindo o resultado
+        System.out.println(dias + " dia(s)");
+        System.out.println(horas + " hora(s)");
+        System.out.println(minutos + " minuto(s)");
+        System.out.println(segundos + " segundo(s)");
+
+        scanner.close();
+    }
+}
